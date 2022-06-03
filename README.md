@@ -2,4 +2,4 @@
 
 ## App Image
 
-<img src="https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png" width="200">
+<img src="https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png" width="400" height="500">
