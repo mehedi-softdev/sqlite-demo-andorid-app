@@ -2,4 +2,5 @@
 
 ## App Image
 
-![](https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png =400x500) 
+![](https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png )
+ 
