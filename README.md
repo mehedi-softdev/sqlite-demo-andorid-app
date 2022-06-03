@@ -2,5 +2,4 @@
 
 ## App Image
 
-[//]: # ![](https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png | width=100)
- 
+<img src="https://github.com/mehedi-softdev/sqlite-demo-andorid-app/blob/main/screenshots/app_image.png">
