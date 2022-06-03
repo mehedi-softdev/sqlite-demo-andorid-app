@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    get Input layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_clear_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_clear_records"
+            android:layout_margin="8dp"
+            style="?buttonBarButtonStyle"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            />
+        <EditText
+            android:id="@+id/et_customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_name"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:padding="18dp"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            />
+
+        <EditText
+            android:id="@+id/et_customer_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_age"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:padding="18dp"
+            android:inputType="number"
+            android:autofillHints=""
+            />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sw_active_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/active_customer"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    </LinearLayout>
+
+<!--    layout for button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+<!--        button should align in horizontal-->
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_refresh"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            style="?buttonBarButtonStyle"
+            />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add"
+            android:layout_margin="8dp"
+            style="?buttonBarButtonStyle"
+            android:backgroundTint="#d9d9d9"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+<!--    list view to display all customers-->
+    <ListView
+        android:id="@+id/lv_all_customers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>
